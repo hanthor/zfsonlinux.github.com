@@ -1,6 +1,6 @@
 ### How to build zfs-release RPMs:
 ```
-sudo yum -y install rpm-build
+sudo dnf install -y rpm-build
 mkdir -p ~/rpmbuild/{BUILDROOT,SPECS,RPMS,SRPMS,SOURCES,BUILD}
 cp RPM-GPG-KEY-openzfs* *.repo ~/rpmbuild/SOURCES
 cp zfs-release.spec ~/rpmbuild/SPECS/
